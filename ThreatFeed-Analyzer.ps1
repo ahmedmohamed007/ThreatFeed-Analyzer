@@ -1304,15 +1304,15 @@ filterMitreTechniques();
 }
 
 function openChatGPT(url,title){
-window.open('https://chatgpt.com/?q='+encodeURIComponent('Please analyze this cybersecurity article "'+title+'" and provide a professional, well-structured, technically accurate summary. Include: 1. Executive Summary 2. Key Technical Details 3. Threat Actor/Campaign Information (if applicable) 4. Impact and Risk Assessment 5. MITRE ATT&CK Techniques (if detected) 6. Recommended Mitigations. Article URL: '+url),'_blank');
+window.open('https://chatgpt.com/?q='+encodeURIComponent('Please analyze this cybersecurity article "'+title+'" and provide a professional, well-structured, technically accurate summary. Include: 1. Executive Summary 2. Key Technical Details 3. Threat Actor/Campaign Information (if applicable) 4. Impact and Risk Assessment 5. MITRE ATT&CK Techniques (if detected) 6. Recommended Mitigations with example. Article URL: '+url),'_blank');
 }
 
 function openClaude(url,title){
-window.open('https://claude.ai/new?q='+encodeURIComponent('Please analyze this cybersecurity article "'+title+'" and provide a professional, well-structured, technically accurate summary. Include: 1. Executive Summary 2. Key Technical Details 3. Threat Actor/Campaign Information (if applicable) 4. Impact and Risk Assessment 5. MITRE ATT&CK Techniques (if detected) 6. Recommended Mitigations. Article URL: '+url),'_blank');
+window.open('https://claude.ai/new?q='+encodeURIComponent('Please analyze this cybersecurity article "'+title+'" and provide a professional, well-structured, technically accurate summary. Include: 1. Executive Summary 2. Key Technical Details 3. Threat Actor/Campaign Information (if applicable) 4. Impact and Risk Assessment 5. MITRE ATT&CK Techniques (if detected) 6. Recommended Mitigations with example. Article URL: '+url),'_blank');
 }
 
 function openGemini(url,title){
-const prompt='Please analyze this cybersecurity article "'+title+'" and provide a professional, well-structured, technically accurate summary. Include: 1. Executive Summary 2. Key Technical Details 3. Threat Actor/Campaign Information (if applicable) 4. Impact and Risk Assessment 5. MITRE ATT&CK Techniques (if detected) 6. Recommended Mitigations. Article URL: '+url;
+const prompt='Please analyze this cybersecurity article "'+title+'" and provide a professional, well-structured, technically accurate summary. Include: 1. Executive Summary 2. Key Technical Details 3. Threat Actor/Campaign Information (if applicable) 4. Impact and Risk Assessment 5. MITRE ATT&CK Techniques (if detected) 6. Recommended Mitigations with example. Article URL: '+url;
 navigator.clipboard.writeText(prompt).then(()=>{
 window.open('https://gemini.google.com/app','_blank');
 alert('Prompt copied to clipboard! Paste it in Gemini (Ctrl+V or Cmd+V).');
