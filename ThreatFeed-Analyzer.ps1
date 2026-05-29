@@ -114,7 +114,6 @@ $Feeds = @(
     "https://www.mandiant.com/resources/blog/rss.xml",
     "https://research.checkpoint.com/feed/",
     "https://blog.badsectorlabs.com/feeds/all.atom.xml",
-    "https://cyble.com/feed/",
     "https://cyberbuilders.substack.com/feed",
     "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
     "https://blogs.cisco.com/security/feed",
@@ -124,7 +123,6 @@ $Feeds = @(
     "https://www.proofpoint.com/us/rss.xml",
     "https://www.imperva.com/blog/feed/",
     "https://heimdalsecurity.com/blog/feed/",
-    "https://www.secpod.com/blog/feed/",
     "https://www.yeswehack.com/rss.xml",
     "https://feeds.feedburner.com/GoogleOnlineSecurityBlog",
     "https://heimdalsecurity.com/blog/feed/"
